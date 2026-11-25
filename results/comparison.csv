@@ -1,0 +1,9 @@
+dataset,horizon,runs,ours MSE,paper MSE,ours MAE,paper MAE,MSE gap vs paper,best baseline,baseline MSE,baseline MAE,min per run
+ETTm2,96,1,0.230 ± 0.000,0.255,0.316 ± 0.000,0.339,-9.8%,repeat last day,0.263,0.301,12.3
+ETTm2,192,1,0.292 ± 0.000,0.281,0.344 ± 0.000,0.34,+3.9%,repeat last day,0.321,0.337,28.3
+ETTm2,336,1,0.340 ± 0.000,0.339,0.375 ± 0.000,0.372,+0.2%,repeat last day,0.376,0.37,23.3
+ETTm2,720,1,0.419 ± 0.000,0.422,0.415 ± 0.000,0.419,-0.6%,repeat last day,0.471,0.422,51.0
+Exchange,96,1,0.145 ± 0.000,0.197,0.276 ± 0.000,0.323,-26.2%,last value,0.081,0.196,2.3
+Exchange,192,1,0.274 ± 0.000,0.3,0.383 ± 0.000,0.369,-8.6%,last value,0.167,0.289,0.9
+Exchange,336,1,0.465 ± 0.000,0.509,0.509 ± 0.000,0.524,-8.6%,last value,0.306,0.398,1.2
+Exchange,720,1,1.122 ± 0.000,1.447,0.825 ± 0.000,0.941,-22.5%,last value,0.81,0.676,9.3
